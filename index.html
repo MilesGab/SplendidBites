@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splendid Bites | Taguig</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="/assets/img/icons/webicon.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="sp-header" id="sp-header">
+        <nav class="nav-bar">
+            <a onclick="smoothScroll(event, 'home-panel')"  href="#" class="nav-logo-img">
+                <img src="/assets/img/logologo.png" alt="" class="nav-logo-img">
+            </a>
+
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-options">
+                    <li class="nav-item">
+                        <a onclick="smoothScroll(event, 'home-panel')"  href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="smoothScroll(event, 'specialties-panel')" href="#" class="nav-link">Specialties</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="smoothScroll(event, 'customer-panel')" href="#" class="nav-link">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a onclick="smoothScroll(event, 'location-panel')" href="#" class="nav-link">Location</a>
+                    </li>
+
+                </ul>
+                <div class="nav-close" id="nav-close">
+                    <i class='bx bx-x'></i>
+                </div>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <i class='bx bx-menu' ></i>
+            </div>
+        </nav>
+    </header>    
+
+    <main>
+        <section class="home-panel" id="home-panel">
+            <div class="home-container">
+                <div class="home-banner">
+                    <div class="home-banner-content">
+                        <span class="home-slogan">
+                            <h1 class="home-slogan">
+                                Your Cozy Corner for </br>
+                                Unforgettable Flavors
+                            </h1>
+                            <h2 class="home-subslogan">
+                                Breakfast, Brunch, and More at Splendid Bites Café
+                            </h2>
+                        </span>
+                        <div class="home-featured">
+                            <div class="featured-title">
+                                <p>Today's Featured</p>
+                            </div>
+                            <div class="featured-product-name">
+                                <p>Spanish Latte</p>
+                            </div>
+                            <div class="featured-product-img">
+                                <img src="assets/img/featured.png">
+                            </div>
+                            <button class="view-menu-button" id="view-menu-button">
+                                <p>View Menu</p>
+                                <i class='bx bx-coffee'></i>
+                            </button>
+                        </div>
+                        <div class="show-food-menu" id="show-food-menu">
+                            <div class="menu-container">
+                                <div class="menu-close" id="menu-close">
+                                    <i class='bx bx-x'></i>
+                                </div>
+                                <div class="menu-grid">
+                                    <img src="/assets/img/Menu Window.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="specialties-panel" id="specialties-panel">
+            <h1 class="section-title">
+                Brews, Blends, and Bites
+            </h1>
+            <div class="specialty-grid" id="specialty-grid">
+                <div class="grid-item">
+                    <img src="assets/img/ep_coffee.png">
+                    <h2 class="item-title">
+                        Choose your beverage
+                    </h2>
+                    <p class="item-description">
+                        From Iced Delights to Cozy Sips, We've Got Every Flavor in the Mix!
+                    </p>
+                </div>
+                <div class="grid-item item-2">
+                    <img src="assets/img/waffles.png">
+                    <h2 class="item-title">
+                        Waffles!
+                    </h2>
+                    <p class="item-description">
+                        Crunchy, Fluffy, Simply Divine - Waffles Like These Are Hard to Find!                    
+                    </p>
+                </div>
+                <div class="grid-item">
+                    <img src="assets/img/delivery.png">
+                    <h2 class="item-title">
+                        Deliciousness Delivered
+                    </h2>
+                    <p class="item-description">
+                        Bringing Splendor Straight to Your Door!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="customer-panel" id="customer-panel">
+            <h1 class="section-title">
+                What Our Customers Say
+            </h1>
+            <div class="customer-panel-content" id="customer-panel-content">
+                <div class="customer-img">
+                    <img src="/assets/img/customer.png">
+                    <h2>"Wow coffee"</h2>
+                </div>
+                <div class="customer-img">
+                    <img src="/assets/img/customer.png">
+                    <h2>"Wow coffee"</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="location-panel" id="location-panel">
+            <h1 class="section-title">
+                Location
+            </h1>
+            <div class="location-panel-content">
+                <div class="location-panel-text">
+                    <h1>Splendid Bites Taguig</h1>
+                    <p class="location-address">25c Sapphire St, Deva Village, </br> Taguig City, Metro Manila, 1636</p>
+                    <p class="location-day">Mon - Fri</p>
+                    <p class="location-time">1:00 PM - 10:00 PM</p>
+                </div>
+                <div class="location-content">
+                    <img src="assets/img/location.png" class="location-img">
+                    <button class="view-menu-button get-location-button" id="get-location-button">
+                        <p>Get Location</p>
+                        <i class='bx bx-location-plus' ></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>©2023 Splendid Bites Taguig</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
